@@ -14,6 +14,7 @@
 		66ABBCDE298D928A00649F78 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABBCDD298D928900649F78 /* LocationManager.swift */; };
 		66ABBCE1298D95CA00649F78 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABBCE0298D95CA00649F78 /* WelcomeView.swift */; };
 		66ABBCE3298D98A300649F78 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABBCE2298D98A300649F78 /* LoadingView.swift */; };
+		66ABBCE5298DA50900649F78 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABBCE4298DA50900649F78 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		66ABBCDD298D928900649F78 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		66ABBCE0298D95CA00649F78 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		66ABBCE2298D98A300649F78 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		66ABBCE4298DA50900649F78 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				66ABBCDD298D928900649F78 /* LocationManager.swift */,
+				66ABBCE4298DA50900649F78 /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66ABBCE5298DA50900649F78 /* WeatherManager.swift in Sources */,
 				66ABBCD1298C662400649F78 /* ContentView.swift in Sources */,
 				66ABBCCF298C662400649F78 /* Weather_iOSApp.swift in Sources */,
 				66ABBCDE298D928A00649F78 /* LocationManager.swift in Sources */,
