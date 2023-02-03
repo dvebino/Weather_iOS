@@ -11,6 +11,7 @@
 		66ABBCD1298C662400649F78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABBCD0298C662400649F78 /* ContentView.swift */; };
 		66ABBCD3298C662600649F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66ABBCD2298C662600649F78 /* Assets.xcassets */; };
 		66ABBCD6298C662600649F78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66ABBCD5298C662600649F78 /* Preview Assets.xcassets */; };
+		66ABBCDE298D928A00649F78 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ABBCDD298D928900649F78 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		66ABBCD0298C662400649F78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66ABBCD2298C662600649F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66ABBCD5298C662600649F78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66ABBCDD298D928900649F78 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		66ABBCCD298C662400649F78 /* Weather_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				66ABBCDC298D926D00649F78 /* Managers */,
 				66ABBCCE298C662400649F78 /* Weather_iOSApp.swift */,
 				66ABBCD0298C662400649F78 /* ContentView.swift */,
 				66ABBCD2298C662600649F78 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				66ABBCD5298C662600649F78 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66ABBCDC298D926D00649F78 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				66ABBCDD298D928900649F78 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				66ABBCD1298C662400649F78 /* ContentView.swift in Sources */,
 				66ABBCCF298C662400649F78 /* Weather_iOSApp.swift in Sources */,
+				66ABBCDE298D928A00649F78 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
